@@ -8,7 +8,7 @@
 }
 
 /* Estilo del encabezado */
-
+/*
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -72,7 +72,7 @@ header {
     text-align: center;
 }
  /* Sección principal */
-
+/*
 .imagen-principal {
     height: 90vh;
     background-image: url("../imagenes/imagen principal.jpg");
@@ -97,7 +97,6 @@ header {
     background: rgba(0, 0, 0, 0.55);
 }
 
-.imagen-principal h1,
 .imagen-principal p {
     position: relative;
     z-index: 1;
@@ -145,7 +144,7 @@ header {
 }
 
 /* Estilo del pie de página */
-
+/*
 footer {
     background-color: black;
     color: white;
@@ -154,7 +153,7 @@ footer {
 }
 
 /* Estilo de la sección de integrantes */
-
+/* 
 .contenedor-grid-integrantes {
     display: grid;
     gap: 60px;
@@ -225,7 +224,7 @@ footer {
 
 
 /* Estilo de la sección de álbumes */
-
+/* 
 .contenedor-albumes {
     width: 100%;
     background-color: #121212;
@@ -302,7 +301,7 @@ footer {
 }
 
 /* Estilo de la sección de tienda oficial */
-
+/* 
 .tienda{
 color: white;
 }
@@ -313,15 +312,11 @@ font-weight: 800;
 letter-spacing: 4px;
 }
 
-/* GRID */
-
 .grid-tienda{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 gap: 30px;
 }
-
-/* TARJETAS */
 
 .card{
 background-color: #171717 !important;
@@ -378,7 +373,7 @@ grid-column: span 2;
 
 /* Estilo de la sección de contacto */ 
 
-
+/* 
 .contacto{
 color: white;
 }

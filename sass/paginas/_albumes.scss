@@ -1,0 +1,76 @@
+// Estilo de la sección de álbumes
+
+.contenedor-albumes {
+    width: 100%;
+    background-color: #121212;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.titulo-seccion {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedor-albumes ul {
+    display: flex;
+    width: 500%;
+    padding: 0;
+    margin: 0;
+    animation: slide 20s infinite;
+}
+
+.contenedor-albumes li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.contenedor-albumes img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+.texto-album {
+    margin-top: 20px;
+    color: white;
+}
+
+.texto-album h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto-album p {
+    color: #b3b3b3;
+    font-size: 1rem;
+}
+
+@keyframes slide {
+    0%,15% {
+        transform: translateX(0%);
+    }
+
+    20%,35% {
+        transform: translateX(-20%);
+    }
+
+    40%,55% {
+        transform: translateX(-40%);
+    }
+
+    60%,75% {
+        transform: translateX(-60%);
+    }
+
+    80%,100% {
+        transform: translateX(-80%);
+    }
+}

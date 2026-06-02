@@ -1,0 +1,63 @@
+// Estilo de la sección de contacto 
+
+.contacto {
+    color: white;
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        letter-spacing: 4px;
+    }
+}
+
+.subtitulo {
+    color: #cfcfcf;
+    margin-bottom: 40px;
+}
+
+.formulario-container {
+    max-width: 800px;
+
+    margin: auto;
+
+    background-color: #171717;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.form-label {
+    color: white;
+    font-weight: 600;
+}
+
+.form-control {
+    background-color: #252525 !important;
+
+    border: 1px solid #444 !important;
+
+    color: white !important;
+
+    padding: 12px;
+
+    &::placeholder {
+        color: #9d9d9d;
+    }
+
+    &:focus {
+        background-color: #252525 !important;
+
+        color: white !important;
+
+        border-color: white !important;
+
+        box-shadow: none !important;
+    }
+}
+
+.btn-lg {
+    padding: 12px 35px;
+} 
