@@ -34,4 +34,39 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+
+        transition: .3s ease;
+    }
+    
+    img:hover {
+        transform: translateY(-3px);
+        opacity: .8;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+
+        transition: .3s ease;
+
+        &:hover {
+            transform: translateY(-3px);
+            opacity: .8;
+        }
+
+    }       
 }
