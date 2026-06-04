@@ -149,6 +149,7 @@ footer {
   background-color: #121212;
   padding: 50px 0;
   overflow: hidden;
+  min-height: 80vh;
 }
 
 .titulo-seccion {
@@ -384,7 +385,7 @@ h1 {
   }
 }
 /* INTEGRANTES */
-/*tablet hasta 768px */
+/*TABLET hasta 768px */
 @media (max-width: 768px) {
   .integrante {
     grid-template-columns: 1fr;
@@ -427,6 +428,25 @@ h1 {
   }
   .info-integrante {
     align-items: center;
+  }
+}
+/* Tienda Oficial  /* 
+
+/*MOBILE */
+@media (max-width: 576px) {
+  .tienda {
+    padding: 20px;
+  }
+  .tienda h1 {
+    font-size: 2rem;
+  }
+  .grid-tienda {
+    grid-template-columns: 1fr;
+  }
+  .where-we-are,
+  .fragancias,
+  .musica {
+    grid-column: span 1;
   }
 }
 

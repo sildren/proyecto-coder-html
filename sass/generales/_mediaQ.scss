@@ -75,7 +75,7 @@
 
 /* INTEGRANTES */
 
-/*tablet hasta 768px */
+/*TABLET hasta 768px */
 
 @media (max-width: 768px) {
 
@@ -133,3 +133,32 @@
         align-items: center;
     }
 }
+
+/* Tienda Oficial  /* 
+
+/*MOBILE */
+
+// MOBILE
+
+@media (max-width: 576px) {
+
+    .tienda {
+        padding: 20px;
+    }
+
+    .tienda h1 {
+        font-size: 2rem;
+    }
+
+    .grid-tienda {
+        grid-template-columns: 1fr;
+    }
+
+    .where-we-are,
+    .fragancias,
+    .musica {
+        grid-column: span 1;
+    }
+}
+
+
